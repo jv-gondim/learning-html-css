@@ -1,0 +1,10 @@
+@charset "UFT-8";
+
+* {/*Configurações globais das CSS*/
+    height: 100%;
+}
+
+body {
+    /*(background-image: linear-gradient(to top, blue, rgba(174, 0, 255, 0.993));*/
+    background-image: radial-gradient(circle, #3198E2, #6D59C0, #E33F5F, #FDD579);
+}

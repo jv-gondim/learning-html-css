@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudios</title>
+</head>
+<body>
+    <h1>Inserindo Arquivos de Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="midiaDeAudio/California Wind - Bruno E..mp3" type="audio/mpeg">
+        <source src="midiaDeAudio/California Wind - Bruno E..ogg" type="audio/ogg">
+        <source src="midiaDeAudio/California Wind - Bruno E..wav" type="audio/wav">
+        <!--Tente evitar o tipo wav. Ele existe e tem navegadores capaz de ler ele, mas é um tipo de arquivo mais pesado.-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midiaDeAudio/California Wind - Bruno E..mp3">Clique aqui para baixar o áudio</a></p>
+        <!--A ordem é importante. O codigo sera executado de cima para baixo procurando o tipo de áudio que o navegador é capaz de ler! -->
+    </audio>
+</body>
+</html>
